@@ -12,3 +12,4 @@ C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debu
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\C# notes 2.pdb
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\C# notes 2.genruntimeconfig.cache
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\ref\C# notes 2.dll
+C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\C# notes 2.sourcelink.json
