@@ -55,9 +55,9 @@ bool found = false;
 
  Console.WriteLine($"{employeeName}, {title}"); */
 
- // SKU = Stock Keeping Unit. 
+// SKU = Stock Keeping Unit. 
 // SKU value format: <product #>-<2-letter color code>-<size code>
-string sku = "01-MN-L";
+/* string sku = "01-MN-L";
 
 string[] product = sku.Split('-');
 
@@ -107,4 +107,30 @@ switch(product[2]) {
         break;
 }
 
-Console.WriteLine($"Product: {size} {color} {type}");
+Console.WriteLine($"Product: {size} {color} {type}"); */
+
+/* string[] names = { "Alex", "Eddie", "David", "Michael" };
+
+for (int i = names.Length - 1; i >= 0; i--) {
+    Console.WriteLine(names[i]);
+}
+
+
+for (int i = 0; i < names.Length; i++)
+    if (names[i] =="David") names[i] = "Sammy";
+
+foreach (var name in names) Console.WriteLine(name); */
+
+// Oppgave Code challenge module 3
+
+for (int i = 1; i <= 100; i++) {
+    if(i % 3 == 0 && i % 5 == 0) {
+        Console.WriteLine($"{i} FizzBuzz");
+    } else if (i % 5 == 0) {
+        Console.WriteLine($"{i} Buzz");
+    } else if (i % 3 == 0) {
+        Console.WriteLine($"{i} Fizz");
+    } else {
+        Console.WriteLine(i);
+    }
+}
