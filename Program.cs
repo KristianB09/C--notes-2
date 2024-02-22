@@ -121,9 +121,9 @@ for (int i = 0; i < names.Length; i++)
 
 foreach (var name in names) Console.WriteLine(name); */
 
-// Oppgave Code challenge module 3
+// Oppgave Code challenge module 3 for loop
 
-for (int i = 1; i <= 100; i++) {
+/* for (int i = 1; i <= 100; i++) {
     if(i % 3 == 0 && i % 5 == 0) {
         Console.WriteLine($"{i} FizzBuzz");
     } else if (i % 5 == 0) {
@@ -134,3 +134,85 @@ for (int i = 1; i <= 100; i++) {
         Console.WriteLine(i);
     }
 }
+ */
+
+// Oppgave Code challenge module 3 do while loop
+
+/* Random random = new Random();
+
+int current = random.Next(1, 11);
+
+do {
+    current = random.Next(1, 11);
+
+    if (current >= 8) continue;
+
+    Console.WriteLine(current);
+} while(current != 7);
+ */
+/* while (current >= 3) {
+    Console.WriteLine(current);
+    current = random.Next(1, 11);
+} 
+
+Console.WriteLine($"Last number: {current}"); */
+
+/* int hero = 10;
+
+int monster = 10;
+
+Random attack = new Random();
+
+
+
+do {
+    int damage = attack.Next(1, 11);
+    monster -= damage;
+    Console.WriteLine($"The monster was damaged and lost {damage} health. It now has {monster} health left.");
+    
+    if(monster <= 0) {
+        Console.WriteLine($"The hero wins with {hero} health left!");
+        break;
+    }
+
+    damage = attack.Next(1, 11);
+
+    hero -= damage;
+    Console.WriteLine($"The hero was damaged and lost {damage} health. They now have {hero} health left.");
+
+    if(hero <= 0) {
+        Console.WriteLine($"The monster wins with {monster} health left!");
+    }
+
+} while(hero > 0 && monster > 0); */
+
+// Code challenge 2
+
+/* string? readResult;
+bool validEntry = false;
+
+Console.WriteLine("Enter a string");
+
+do {
+    readResult = Console.ReadLine();
+    if(readResult != null) {
+        if(readResult.Length >= 3) {
+            validEntry = true;
+        } else {
+            Console.WriteLine("You must write atleast 3 characters. Please try again");
+        }
+    }
+} while (validEntry == false);
+ */
+
+ Console.WriteLine("Please enter a whole number between 5 and 10");
+ int numericValue = 0;
+ bool validNumber = false;
+
+ do {
+    string? readLine = Console.ReadLine();
+    validNumber = int.TryParse(readLine, out numericValue);
+    
+    
+
+ } while (validNumber == false);
