@@ -205,14 +205,54 @@ do {
 } while (validEntry == false);
  */
 
- Console.WriteLine("Please enter a whole number between 5 and 10");
+// Code challenge 1 task 4
+
+using System.Security.Permissions;
+
+/* Console.WriteLine("Please enter a whole number between 5 and 10");
  int numericValue = 0;
  bool validNumber = false;
 
  do {
     string? readLine = Console.ReadLine();
     validNumber = int.TryParse(readLine, out numericValue);
-    
+    if(validNumber == false) {
+        Console.WriteLine("That is not a valid number! Please use whole/integer numbers. Try again...");
+    }
+
     
 
- } while (validNumber == false);
+    if (validNumber == true) {
+        if(numericValue >= 5 && numericValue <= 10) {
+            break;
+        } else if (numericValue < 5 || numericValue > 10) {
+            Console.WriteLine("The value you entered is either smaller than 5 or larger than 10. Please input a number between 5 and 10");
+        }
+    }
+
+ } while (!validNumber || numericValue < 5 || numericValue > 10);
+
+ Console.WriteLine("Your number has been accepted.");
+ */
+ // Code challenge 2 task 4
+
+Console.WriteLine("Enter your role name (Aministrator, Manager or User)");
+
+bool validRole = false;
+
+do {
+   string? userInput = Console.ReadLine();
+   if(userInput != null) {
+    userInput.Trim().ToLower();
+   }
+   if(userInput  == "administrator" || userInput == "manager" || userInput == "user") {
+    validRole = true;
+   } else {
+    Console.WriteLine("Please input a valid answer  (Aministrator, Manager or User)");
+   }
+
+
+
+} while(!validRole);
+
+Console.WriteLine($"Your input value has been accepted.");
