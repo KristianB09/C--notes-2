@@ -207,8 +207,6 @@ do {
 
 // Code challenge 1 task 4
 
-using System.Security.Permissions;
-
 /* Console.WriteLine("Please enter a whole number between 5 and 10");
  int numericValue = 0;
  bool validNumber = false;
@@ -234,25 +232,29 @@ using System.Security.Permissions;
 
  Console.WriteLine("Your number has been accepted.");
  */
+ 
  // Code challenge 2 task 4
 
-Console.WriteLine("Enter your role name (Aministrator, Manager or User)");
+/* Console.WriteLine("Enter your role name (Aministrator, Manager or User)");
 
 bool validRole = false;
 
 do {
    string? userInput = Console.ReadLine();
    if(userInput != null) {
-    userInput.Trim().ToLower();
+    userInput = userInput.Trim().ToLower();
    }
    if(userInput  == "administrator" || userInput == "manager" || userInput == "user") {
     validRole = true;
    } else {
-    Console.WriteLine("Please input a valid answer  (Aministrator, Manager or User)");
+    Console.WriteLine($"The role you entered, \"{userInput}\" is not valid. Please input a valid answer  (Aministrator, Manager or User)");
    }
 
 
 
 } while(!validRole);
 
-Console.WriteLine($"Your input value has been accepted.");
+Console.WriteLine("Your input value has been accepted."); */
+
+// Code challenge 3 task 4
+

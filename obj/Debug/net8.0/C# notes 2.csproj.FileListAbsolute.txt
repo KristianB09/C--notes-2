@@ -13,3 +13,18 @@ C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debu
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\C# notes 2.genruntimeconfig.cache
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\ref\C# notes 2.dll
 C:\Users\abhan\OneDrive\Desktop\Kodehode\Prosjekter\C# notes\C# notes 2\obj\Debug\net8.0\C# notes 2.sourcelink.json
+E:\Code\C#\C--notes-2\bin\Debug\net8.0\C# notes 2.exe
+E:\Code\C#\C--notes-2\bin\Debug\net8.0\C# notes 2.deps.json
+E:\Code\C#\C--notes-2\bin\Debug\net8.0\C# notes 2.runtimeconfig.json
+E:\Code\C#\C--notes-2\bin\Debug\net8.0\C# notes 2.dll
+E:\Code\C#\C--notes-2\bin\Debug\net8.0\C# notes 2.pdb
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.AssemblyInfoInputs.cache
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.AssemblyInfo.cs
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.csproj.CoreCompileInputs.cache
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.sourcelink.json
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.dll
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\refint\C# notes 2.dll
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.pdb
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\C# notes 2.genruntimeconfig.cache
+E:\Code\C#\C--notes-2\obj\Debug\net8.0\ref\C# notes 2.dll
