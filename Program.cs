@@ -258,3 +258,15 @@ Console.WriteLine("Your input value has been accepted."); */
 
 // Code challenge 3 task 4
 
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+
+int periodLocation;
+
+foreach(string myString in myStrings) {
+    periodLocation = myString.IndexOf(".");
+    Console.WriteLine(periodLocation);
+    
+    while(myString != null) {
+        
+    }
+}
