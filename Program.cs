@@ -258,15 +258,28 @@ Console.WriteLine("Your input value has been accepted."); */
 
 // Code challenge 3 task 4
 
-string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+/* string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
 
-int periodLocation;
+foreach (string currentString in myStrings)
+{
+    int periodLocation = currentString.IndexOf(".");
 
-foreach(string myString in myStrings) {
-    periodLocation = myString.IndexOf(".");
-    Console.WriteLine(periodLocation);
-    
-    while(myString != null) {
-        
+    string tempString = currentString;
+    string mySentence;
+
+    while (periodLocation != -1)
+    {
+        mySentence = tempString.Substring(0, periodLocation);
+
+        tempString = tempString.Substring(periodLocation + 1);
+        tempString = tempString.TrimStart();
+
+        periodLocation = tempString.IndexOf("."); 
+
+        Console.WriteLine(mySentence);
     }
-}
+
+    mySentence = tempString.Trim();
+    Console.WriteLine(mySentence);
+} */
+
