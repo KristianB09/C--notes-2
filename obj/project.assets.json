@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abhan\\.nuget\\packages\\": {}
+    "C:\\Users\\krist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj",
+      "projectUniqueName": "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj",
       "projectName": "C# notes 2",
-      "projectPath": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj",
-      "packagesPath": "C:\\Users\\abhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\obj\\",
+      "projectPath": "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj",
+      "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
+      "outputPath": "E:\\Code\\C#\\C--notes-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abhan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\krist\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
