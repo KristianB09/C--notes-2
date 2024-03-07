@@ -572,6 +572,37 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
+
+            for (int i = 0; i < maxPets; i++)
+            {
+                string fullID = ourAnimals[i, 0];
+                string idPart = fullID.Substring(6);
+
+                if (string.IsNullOrEmpty(idPart))
+                {
+                    continue;
+                }
+
+                string fullAge = ourAnimals[i, 2];
+                string agePart = fullAge.Substring(5);
+
+                validEntry = int.TryParse(agePart, out petAge);
+
+                while (validEntry == false)
+                {
+                    Console.WriteLine($"An age was not found for entry {ourAnimals[i, 0]}. Please enter a valid numeric age");
+                    readResult = Console.ReadLine();
+                    validEntry = int.TryParse(agePart, out petAge);
+                }
+
+                if (validEntry == true)
+                {
+
+                }
+
+            }
+
+
             Console.WriteLine("Challenge Project - please check back soon to see progress.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
