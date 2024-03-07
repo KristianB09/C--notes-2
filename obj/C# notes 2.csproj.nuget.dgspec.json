@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj": {}
+    "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj": {}
   },
   "projects": {
-    "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj": {
+    "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj",
+        "projectUniqueName": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj",
         "projectName": "C# notes 2",
-        "projectPath": "E:\\Code\\C#\\C--notes-2\\C# notes 2.csproj",
-        "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\C#\\C--notes-2\\obj\\",
+        "projectPath": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\C# notes 2.csproj",
+        "packagesPath": "C:\\Users\\abhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhan\\OneDrive\\Desktop\\Kodehode\\Prosjekter\\C# notes\\C# notes 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\krist\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\abhan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
