@@ -578,6 +578,9 @@ do
                 string fullID = ourAnimals[i, 0];
                 string idPart = fullID.Substring(6);
 
+                string fullPhysical = ourAnimals[i, 4];
+                string physicalPart = fullPhysical.Substring(22);
+
                 if (string.IsNullOrEmpty(idPart))
                 {
                     continue;
@@ -592,18 +595,40 @@ do
                 {
                     Console.WriteLine($"An age was not found for entry {ourAnimals[i, 0]}. Please enter a valid numeric age");
                     readResult = Console.ReadLine();
-                    validEntry = int.TryParse(agePart, out petAge);
+                    validEntry = int.TryParse(readResult, out petAge);
+
+                    if (validEntry)
+                    {
+                        ourAnimals[i, 2] = $"Age: {petAge}";
+                    }
                 }
 
-                if (validEntry == true)
+                while (string.IsNullOrEmpty(physicalPart))
                 {
+                    Console.WriteLine($"A physical description was not found for entry {ourAnimals[i, 0]}. Please enter a physical description (size, color, breed, gender, weight, housebroken)");
+
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+                        if (readResult.Length <= 5 && readResult.Length >= 1)
+                        {
+                            Console.WriteLine("Please enter an answer longer than 5 characters.");
+                            readResult = "";
+                        }
+                    }
+
+                    if (!string.IsNullOrEmpty(readResult))
+                    {
+                        ourAnimals[i, 4] = $"Physical description: {readResult}";
+                        physicalPart = ourAnimals[i, 4];
+                    }
 
                 }
 
             }
 
-
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            Console.WriteLine("Age and physical description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
