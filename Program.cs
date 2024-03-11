@@ -635,14 +635,78 @@ do
 
         case "4":
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+
+            for (int i = 0; i < maxPets; i++)
+            {
+                string fullID = ourAnimals[i, 0];
+                string idPart = fullID.Substring(6);
+
+                if (string.IsNullOrEmpty(idPart))
+                {
+                    continue;
+                }
+
+                string fullNickname = ourAnimals[i, 3];
+                string nicknamePart = fullNickname.Substring(10);
+
+                string fullPersonality = ourAnimals[i, 5];
+                string personalityPart = fullPersonality.Substring(13);
+
+                while (string.IsNullOrEmpty(nicknamePart))
+                {
+                    Console.WriteLine($"A nickname was not found for pet {idPart}. Please enter a Nickname");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+
+                        if (readResult.Length < 3 && readResult.Length > 0)
+                        {
+                            Console.WriteLine("Please enter a nickname with 3 or more characters");
+                            readResult = "";
+                        }
+
+                        if (!string.IsNullOrEmpty(readResult))
+                        {
+                            ourAnimals[i, 3] = $"Nickname: {readResult}";
+                            nicknamePart = ourAnimals[i, 3];
+                            Console.WriteLine($"Your nickname of \"{readResult}\" was accepted");
+                        }
+                    }
+                }
+
+                while (string.IsNullOrEmpty(personalityPart))
+                {
+                    Console.WriteLine($"A personality description was not found for pet {idPart}. Please enter a valid personality description");
+                    readResult = Console.ReadLine();
+
+                    if (readResult != null)
+                    {
+                        if (readResult.Length < 5 && readResult.Length > 0)
+                        {
+                            Console.WriteLine("Please write a description that is longer than 5 letters");
+                            readResult = "";
+                        }
+
+                        if (!string.IsNullOrEmpty(readResult))
+                        {
+                            ourAnimals[i, 5] = $"Personality: {readResult}";
+                            personalityPart = ourAnimals[i, 5];
+
+                            Console.WriteLine($"Your personality description of \"{readResult}\" was accepted");
+                        }
+                    }
+                }
+            }
+
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
 
         case "5":
             // Edit an animal’s age");
-            Console.WriteLine("UNDER CONSTRUCTION - please check back next month to see progress.");
+            Console.WriteLine("");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
